@@ -131,21 +131,6 @@ title: true
 * open science
 
 
-why?
-========================================================
-title: true
-
-* increased efficiency
-* easier to detect errors
-* lower barrier to starting new projects 
-* chaos in your code, file structure, and other components that make up your workflow may make you reluctant to share it with others - a sound workflow will make you more likely to <font style="color:#FFA500">share</font> and to <font style="color:#FFA500">collaborate</font>
-
-<div class="footer" style="font-size:60%;">
-  <hr>
-  <p>Marwick B, Boettiger C, Mullen L. (2017) Packaging data analytical work reproducibly using R (and friends) PeerJ Preprints 5:e3192v1 https://doi.org/10.7287/peerj.preprints.3192v1</p>
-</div>
-
-
 BP (Best Practice): naming - principles for file names
 ========================================================
 title: true
@@ -625,8 +610,15 @@ embrace openness
 ========================================================
 title: true
 
-<div align="center" style="margin-top:10%;">
-  <img src="./figures/bart_os.gif" width="75%"" style="background-color:transparent; border:0px; box-shadow:none;"></img>
+chaos in your code, file structure, and other components that make up your workflow may make you reluctant to share it with others - a sound workflow will make you more likely to <font style="color:#FFA500">share</font> and to <font style="color:#FFA500">collaborate</font>
+
+<div align="center" style="margin-top:0%;">
+  <img src="./figures/bart_os.gif" width="50%"" style="background-color:transparent; border:0px; box-shadow:none;"></img>
+</div>
+
+<div class="footer" style="font-size:60%;">
+  <hr>
+  <p>Marwick B, Boettiger C, Mullen L. (2017) Packaging data analytical work reproducibly using R (and friends) PeerJ Preprints 5:e3192v1 https://doi.org/10.7287/peerj.preprints.3192v1</p>
 </div>
 
 
@@ -634,40 +626,8 @@ embrace openness
 ========================================================
 title: true
 
-<div style="float:left; width:50%; margin-top:5%;">
-  <img src="./figures/boettiger_home_page.png" style="background-color:transparent; border:1px solid #000000; box-shadow:none;"></img>
-</div>
-
-<div style="float:right; width:50%; margin-top:5%;">
-  <img src="./figures/nature_open_notebook.png" style="background-color:transparent; border:1px solid #000000; box-shadow:none;"></img>
-</div>
-
-
-embrace openness
-========================================================
-title: false
-
-Science of Team Science: Lessons from Synthesis Centers<br>
-Stephanie Hampton - January 12, 2018
-<small>
-* Hampton, S.E., Parker, J.N., 2011. Collaboration and productivity in scientific synthesis. BioScience.
-* Heidorn, P.B., 2008. Shedding Light on the Dark Data in the Long Tail of Science. Library Trends.
-* Borgman et al 2008. Little Science confronts the data deluge. Int J Digital Libraries
-* Duke, C.S., Porter, J.H., 2013. The Ethics of Data Sharing and Reuse in Biology. BioScience.
-* Wuchty, S., Jones, B.F., Uzzi, B., 2007. The Increasing Dominance of Teams in Production of Knowledge. Science.
-* Jones, B.F., Wuchty, S., Uzzi, B., 2008. Multi-University Research Teams: Shifting Impact, Geography, and Stratification in Science. Science.
-* Uzzi et al 2013. Atypical Combinations and Scientific Impact. Science.
-* Hicks et al 2015. Bibliometrics: The Leiden Manifesto for research metrics. Nature News.
-* Baron et al 2017. Synthesis Centers as Critical Research Infrastructure. BioScience.
-* Hackett et al. 2008. Ecology Transformed: The National Center for Ecological Analysis and Synthesis and the Changing Patterns of Ecological Research, in: Scientific Collaboration on the Internet.
-* Cheruvelil et al 2014. Creating and maintaining high-performing collaborative research teams: the importance of diversity and interpersonal skills. Frontiers in Ecology and the Environment. (Templates for policies!)
-* Goring et al 2014. Improving the culture of interdisciplinary collaboration in ecology by expanding measures of success. Frontiers in Ecology and the Environment.
-* Smith, K.A. et al 2007. Teamwork and project management. McGraw-Hill.
-</small>
-
-<div class="footer" style="font-size:60%;">
-  <hr>
-  <p>https://lternet.edu/stories/science-team-science-webinar-2018/</p>
+<div align="center" style="margin-top:0%;">
+  <img src="./figures/wutchty_teams.jpg" width="70%"" style="background-color:transparent; border:0px; box-shadow:none;"></img>
 </div>
 
 
