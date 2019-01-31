@@ -252,7 +252,15 @@ general principles:
 * specify the computational environment used for the original analysis
 * organize such that another person can know what to expect from the plain meaning of the file and directory names
 
-.footnote[<sup>1</sup>[Marwick et al. 2017](https://doi.org/10.7287/peerj.preprints.3192v1)]
+more info: https://github.com/karthik/rstudio2019
+
+.footnote[[Marwick et al. 2017](https://doi.org/10.7287/peerj.preprints.3192v1)]
+
+
+---
+
+<img src="assets/figures/setwd_computer_on_fire.jpg" width="100%">
+<img src="assets/figures/git_file_sizes.png" width="100%">
 
 
 ---
