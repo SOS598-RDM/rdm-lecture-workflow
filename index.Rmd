@@ -128,7 +128,7 @@ basically, if the thought of redoing your analyses is terrifying 😱 then you a
 
 ---
 
-#### what we will cover (okay, touch on) today
+#### what we will cover touch on today
 
 * best practices
   + naming
@@ -136,8 +136,11 @@ basically, if the thought of redoing your analyses is terrifying 😱 then you a
   + organization
   + thoughtful curation
   + scripting
-  + spreadsheets (and other pointy, clicky stuff)
+  + spreadsheets (and other mouse-driven tools)
+  + open science
+  + ~~data structure (tidy data)~~
   + ~~version control~~
+  + ~~literate programming~~
 
 
 ---
@@ -200,6 +203,17 @@ which set of file(names)s would you prefer at 3 a.m. before a dealine?
 
 
 ---
+class: inverse
+
+<br>
+<br>
+
+“There are only two hard things in Computer Science: cache invalidation and naming things.”
+
+— Phil Karlton
+
+
+---
 
 #### BP: dates matter (a lot!)
 
@@ -259,48 +273,35 @@ more info: https://github.com/karthik/rstudio2019
 
 ---
 
-<img src="assets/figures/setwd_computer_on_fire.jpg" width="100%">
-<img src="assets/figures/git_file_sizes.png" width="100%">
-
-
----
-
-#### BP: analysis-friendly data
-
-* create analysis-friendly data:
-  + each column a variable
-  + each row an observation
-
-.footnote[Wilson et al. (2017) [Good enough practices in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510)]
-
+.center[
+  <img src="assets/figures/projectOrganizationCropped.png" width="60%">
+]
 
 ---
 
-#### BP: create analysis-friendly data
-
-* each column a variable
-* each row an observation
-
-```{r iris-wide, echo=FALSE}
-knitr::kable(head(iris), format = "html")
-```
-
-.footnote[Wilson et al. (2017) [Good enough practices in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510)]
-
+.center[
+  <img src="assets/figures/git_file_sizes.png" width="100%">
+]
 
 ---
 
-#### BP: create analysis-friendly data
+#### hybrid approach: data in the cloud
 
-* each column a variable
-* each row an observation
+.center[
+  <img src="assets/figures/data_in_the_cloud.png" width="100%">
+]
 
-```{r iris-long, echo=FALSE}
-library(tidyverse)
-knitr::kable(head(gather(head(iris), key = "metric", value = "value", -Species), n=10), format = "html")
-```
+---
 
-.footnote[Wilson et al. (2017) [Good enough practices in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510)]
+#### hard-coding file paths can be problematic
+
+"This makes your script very fragile, hard-wired to exactly one time and place. As soon as you rename or move directories, it breaks. Or maybe you get a new computer? Or maybe someone else needs to run your code? We show a very accessible way to go cold turkey and eliminate the setwd() gotcha from your code."
+
+.center[
+<img src="assets/figures/setwd_computer_on_fire.jpg" width="50%">
+]
+
+.footnote[J. Bryan [Ode to the here package](https://github.com/jennybc/here_here)]
 
 
 ---
@@ -530,18 +531,18 @@ strive for reproducibility from the outset
 
 
 ---
+class: inverse
 
 #### embrace openness
 
-<br>
+"Without clear instructions, many researchers struggle to avoid chaos in their file structures, and so are understandably reluctant to expose their workflow for others to see.  This may be one of the reasons that so many requests for details about method, including requests for data and code, are turned down or go unanswered (Collberg & Proebsting 2016)."
 
-chaos in your code, file structure, and other components that make up your workflow may make you reluctant to share it with others - a sound workflow will make you more likely to <font style="color:#FFA500">share</font> and to <font style="color:#FFA500">collaborate</font>
 
 .center[
-  <img src="assets/figures/bart_os.gif" width="50%"></img>
+  <img src="assets/figures/bart_os.gif" width="60%"></img>
 ]
 
-.footnote[<sup>1</sup>[Marwick et al. 2017](https://doi.org/10.7287/peerj.preprints.3192v1)]
+.footnote[[Marwick et al. 2017](https://doi.org/10.7287/peerj.preprints.3192v1)]
 
 
 ---
@@ -570,14 +571,3 @@ chaos in your code, file structure, and other components that make up your workf
     <img src="assets/figures/center_open_science.png" style="background-color:transparent; border:0px; box-shadow:none;" height="200"></img>
   </div>
 ]
-
-
----
-
-#### orcid
-
-.center[
-  <img src="assets/figures/orcid.png" width="50%">
-]
-
-[orcid.org](https://orcid.org/)
