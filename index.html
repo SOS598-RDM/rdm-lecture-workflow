@@ -152,24 +152,18 @@ were parameter settings chosen?)
 
 ---
 
-#### what we will cover touch on today
-
-* best practices
-  + naming
-  + open file formats
-  + organization
-  + thoughtful curation
-  + scripting
-  + spreadsheets (and other mouse-driven tools)
-  + open science
-  + ~~data structure (tidy data)~~
-  + ~~version control~~
-  + ~~literate programming~~
+#### BP [Best Practice]
 
 
 ---
+class: inverse
 
-#### BP [Best Practice]
+&lt;br&gt;
+&lt;br&gt;
+
+“There are only two hard things in Computer Science: cache invalidation and naming things.”
+
+— Phil Karlton
 
 
 ---
@@ -227,17 +221,6 @@ which set of file(names)s would you prefer at 3 a.m. before a dealine?
 
 
 ---
-class: inverse
-
-&lt;br&gt;
-&lt;br&gt;
-
-“There are only two hard things in Computer Science: cache invalidation and naming things.”
-
-— Phil Karlton
-
-
----
 
 #### BP: dates matter (a lot!)
 
@@ -279,30 +262,6 @@ class: inverse
 
 ---
 
-#### BP: employ sound project organization
-##### research compendium
-
-...a standard and easily recognisable way for organising the digital materials of a project to enable others to inspect, reproduce, and extend the research
-
-general principles:
-* organize according to prevailing conventions (e.g., R package structure)
-* maintain a clear separation of data, method, and output, while unambiguously expressing the relationship between the three
-* specify the computational environment used for the original analysis
-* organize such that another person can know what to expect from the plain meaning of the file and directory names
-
-more info: https://github.com/karthik/rstudio2019
-
-.footnote[[Marwick et al. 2017](https://doi.org/10.7287/peerj.preprints.3192v1)]
-
-
----
-
-.center[
-  &lt;img src="assets/figures/projectOrganizationCropped.png" width="60%"&gt;
-]
-
----
-
 .center[
   &lt;img src="assets/figures/git_file_sizes.png" width="100%"&gt;
 ]
@@ -314,18 +273,6 @@ more info: https://github.com/karthik/rstudio2019
 .center[
   &lt;img src="assets/figures/data_in_the_cloud.png" width="100%"&gt;
 ]
-
----
-
-#### hard-coding file paths can be problematic
-
-"This makes your script very fragile, hard-wired to exactly one time and place. As soon as you rename or move directories, it breaks. Or maybe you get a new computer? Or maybe someone else needs to run your code? We show a very accessible way to go cold turkey and eliminate the setwd() gotcha from your code."
-
-.center[
-&lt;img src="assets/figures/setwd_computer_on_fire.jpg" width="50%"&gt;
-]
-
-.footnote[J. Bryan [Ode to the here package](https://github.com/jennybc/here_here)]
 
 
 ---
@@ -483,6 +430,16 @@ consider, we want to remove samples that we feel may have been contaminated...
   &lt;img src="assets/figures/spreadsheet_remove_samples.png" width="105%"&gt;
   
 ]
+
+
+---
+class: inverse
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+"I tell them what I need, and I get back something more beautiful than I had imagined." SLC
 
 
 ---
